@@ -1,0 +1,61 @@
+//- index.pug
+doctype html 
+html 
+    head 
+        style 
+            include ../static/style.css 
+    body 
+        
+        nav#navbar
+               ul 
+                  div#logo
+                     img(src="/static/img/bg2.jpg") 
+                     | HDA
+                  li #[a(href="/") Home]
+                  li #[a(href="/") About]
+                  li #[a(href="/") services]
+                  li #[a(href="/") class info]
+                  li #[a(href="/") contact us]
+
+
+        section#introSection 
+           div Welcome To Yaduvanshi Dance Academy
+           div.small Eat Sleep Dance Repeat
+        section#missionSection 
+           h3  Our mission
+        div.card  
+           h4 Dance perfection
+           div.card-box 
+                div.card-img  
+                     img(src="/static/img/bg3.jpg")  
+
+                div.card-content 
+                    p This is the best Dance Academy of the universe
+        div.card  
+           h4 Dance the way you like 
+              div.card-box 
+                div.card-img  
+                     img(src="/static/img/bg4.jpg")  
+
+                div.card-content 
+                    p This is the best Dance Academy of the universe
+        div.card  
+           h4 Expert Teaching 
+              div.card-box 
+                div.card-img  
+                     img(src="/static/img/bg5.jpg")  
+
+                div.card-content 
+                    p This is the best Dance Academy of the universe
+        section#sponsorsSection 
+           h3 our sponsors 
+           div#sponsors 
+              
+               img(src="/static/img/bg7.jpg",alt="sponsor image",class="spimage")
+               img(src="/static/img/bg10.jpg",alt="sponsor image",class="spimage")
+               img(src="/static/img/bg8.jpg",alt="sponsor image",class="spimage")
+               img(src="/static/img/hp.jpg",alt="sponsor image",class="spimage")
+        footer#footer
+            | Copyright © 2019 YaduvanshidanceAcademy.com
+        script 
+            include ../static/index.js 
